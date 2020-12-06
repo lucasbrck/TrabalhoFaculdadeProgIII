@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ControleVendas.Models.PedidoModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Codigo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Codigo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.ClienteModelId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PedidoModelId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PedidoModelId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PedidoModelId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
