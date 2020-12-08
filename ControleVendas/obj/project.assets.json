@@ -6228,11 +6228,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\controleVendas2\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\ControleVendas.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\ControleVendasBackup\\ControleVendas\\ControleVendas.csproj",
       "projectName": "ControleVendas",
-      "projectPath": "C:\\Users\\lucas\\source\\repos\\controleVendas2\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\ControleVendas.csproj",
+      "projectPath": "C:\\Users\\lucas\\Desktop\\ControleVendasBackup\\ControleVendas\\ControleVendas.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\source\\repos\\controleVendas2\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Desktop\\ControleVendasBackup\\ControleVendas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

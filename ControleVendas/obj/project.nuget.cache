@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VPceTENg6Eu3hUBFCT5Pal+Zf2HwhjCAaTX8HlRle8It8yp+IDYzITqCv1WRiOa3goOc5v4s7Do7CZLW/OcC0A==",
+  "dgSpecHash": "Lr97KtYxYxs9T7SvZHYpCI9AClmdbCDFGqiw3C7UoVGU8K4O+HwCIsAjlOVc0TNjJCpLrnDta2mc7YZpzl9TfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\source\\repos\\controleVendas2\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\ControleVendas.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\Desktop\\ControleVendasBackup\\ControleVendas\\ControleVendas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
