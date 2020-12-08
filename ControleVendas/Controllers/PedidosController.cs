@@ -103,9 +103,7 @@ namespace ControleVendas.Controllers
             return View(pedidoModel);
         }
 
-        // POST: Pedidos/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+       
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(long? id, [Bind("PedidoModelId,Codigo,Data,Produtos,Valor,ClienteModelId")] PedidoModel pedidoModel)
