@@ -4,7 +4,6 @@
 @{
     ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    List<ProdutoModel> produtos = ViewBag.ProdutoModel;
 }
 
 <h1 class="colorWhite">Novo Pedido</h1>
@@ -26,8 +25,8 @@
                 <span asp-validation-for="Data" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Produtos" class="control-label colorWhite">Produto</label>
-                <select asp-for="Produtos" class="form-control" asp-items="ViewBag.ProdutoModelId"></select>
+                <label asp-for="PedidoProdutos" class="control-label colorWhite">Produto</label>
+                <select asp-for="PedidoProdutos" class="form-control" asp-items="@(new MultiSelectList(ViewBag.Produtos,"ProdutoModelId", "Nome"))"></select>
             </div>
             <div class="form-group">
                 <label asp-for="Valor" class="control-label colorWhite"></label>

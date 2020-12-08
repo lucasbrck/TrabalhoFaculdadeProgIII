@@ -9,7 +9,9 @@ namespace ControleVendas.Data
     {
         public static void Initialize(ControleVendasContext context) 
         {
+            context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
+
         }
     }
 }

@@ -12,7 +12,7 @@ namespace ControleVendas.Models
         public string Nome { get; set; }
         public double PrecoUnit { get; set; }
         public int Estoque { get; set; }
-        public ICollection<PedidoModel> Pedidos { get; set; } = new List<PedidoModel>();
+        public ICollection<PedidoProduto> PedidoProdutos { get; set; }
 
         public ProdutoModel()
         {
