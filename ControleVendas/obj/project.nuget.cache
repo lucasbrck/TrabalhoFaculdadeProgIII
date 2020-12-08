@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ddvoGt7sTKgdh/xZTja6/hwlPbJFGZHVH/xfLkS9zeH3y8r0K3k5VQQj0fzP9IoI0kgrWs3ixrJqZLNzr1xtMw==",
+  "dgSpecHash": "OfoZwgNPd2TCHQalN/pjARxYHcF4uwqoMGknLSjEAqFe7Bo1gt7ZzMyqhnoDrMWG+NL8WxixveV2AmyjIboP8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\source\\repos\\controleVendas\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\ControleVendas.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\source\\repos\\controleVendas2\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\ControleVendas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

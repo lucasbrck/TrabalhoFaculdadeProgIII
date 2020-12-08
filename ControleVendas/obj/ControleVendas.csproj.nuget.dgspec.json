@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\source\\repos\\controleVendas\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\ControleVendas.csproj": {}
+    "C:\\Users\\lucas\\source\\repos\\controleVendas2\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\ControleVendas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\source\\repos\\controleVendas\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\ControleVendas.csproj": {
+    "C:\\Users\\lucas\\source\\repos\\controleVendas2\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\ControleVendas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\controleVendas\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\ControleVendas.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\controleVendas2\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\ControleVendas.csproj",
         "projectName": "ControleVendas",
-        "projectPath": "C:\\Users\\lucas\\source\\repos\\controleVendas\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\ControleVendas.csproj",
+        "projectPath": "C:\\Users\\lucas\\source\\repos\\controleVendas2\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\ControleVendas.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\source\\repos\\controleVendas\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\source\\repos\\controleVendas2\\FaculdadeTrabalhoControleDeVendas\\ControleVendas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

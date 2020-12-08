@@ -7,46 +7,46 @@
     List<ProdutoModel> produtos = ViewBag.ProdutoModel;
 }
 
-<h1>Novo Pedido</h1>
+<h1 class="colorWhite">Novo Pedido</h1>
 
-<h4>PedidoModel</h4>
+<h4 class="colorWhite">Pedido</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Codigo" class="control-label"></label>
+                <label asp-for="Codigo" class="control-label colorWhite"></label>
                 <input asp-for="Codigo" class="form-control" />
                 <span asp-validation-for="Codigo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Data" class="control-label"></label>
+                <label asp-for="Data" class="control-label colorWhite"></label>
                 <input asp-for="Data" class="form-control" />
                 <span asp-validation-for="Data" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Produtos" class="control-label">Produto</label>
-                <select asp-for="Produtos" class="form-control" asp-items="ViewBag.produtos"></select>
+                <label asp-for="Produtos" class="control-label colorWhite">Produto</label>
+                <select asp-for="Produtos" class="form-control" asp-items="ViewBag.ProdutoModelId"></select>
             </div>
             <div class="form-group">
-                <label asp-for="Valor" class="control-label"></label>
+                <label asp-for="Valor" class="control-label colorWhite"></label>
                 <input asp-for="Valor" class="form-control" />
                 <span asp-validation-for="Valor" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ClienteModelId" class="control-label">Cliente</label>
-                <select asp-for="ClienteModelId" class ="form-control" asp-items="ViewBag.ClienteModelId"></select>
+                <label asp-for="ClienteModelId" class="control-label colorWhite">Cliente</label>
+                <select asp-for="ClienteModelId" class="form-control" asp-items="ViewBag.ClienteModelId"></select>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Criar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">← Voltar</a>
 </div>
 
 @section Scripts {

@@ -56,11 +56,23 @@ namespace ControleVendas.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ClienteModelId,Nome,Endereco,Telefone,Cpf")] ClienteModel clienteModel)
         {
-            if (ModelState.IsValid)
+            try 
             {
-                _context.Add(clienteModel);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                if(clienteModel.Cpf.Length != 11)
+                {
+                    ModelState.AddModelError("Cpf", "Cpf Inválido");
+                }
+                if (ModelState.IsValid)
+                {
+                    _context.Add(clienteModel);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+                
+            }
+            catch(DbUpdateException)
+            {
+                ModelState.AddModelError("", "Não foi possível");
             }
             return View(clienteModel);
         }

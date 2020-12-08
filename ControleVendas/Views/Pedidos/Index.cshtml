@@ -5,24 +5,24 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1 class="colorWhite">Pedidos</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-outline-primary" asp-action="Create">Adicionar Pedido</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-            <th>
+            <th class="colorWhite">
                 @Html.DisplayNameFor(model => model.Codigo)
             </th>
-            <th>
+            <th class="colorWhite">
                 @Html.DisplayNameFor(model => model.Data)
             </th>
-            <th>
+            <th class="colorWhite">
                 @Html.DisplayNameFor(model => model.Valor)
             </th>
-            <th>
+            <th class="colorWhite">
                 @Html.DisplayNameFor(model => model.Cliente)
             </th>
             <th></th>
@@ -31,22 +31,22 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
+            <td class="colorWhite">
                 @Html.DisplayFor(modelItem => item.Codigo)
             </td>
-            <td>
+            <td class="colorWhite">
                 @Html.DisplayFor(modelItem => item.Data)
             </td>
-            <td>
+            <td class="colorWhite">
                 @Html.DisplayFor(modelItem => item.Valor)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cliente.ClienteModelId)
+            <td class="colorWhite">
+                @Html.DisplayFor(modelItem => item.Cliente.Nome)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.PedidoModelId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.PedidoModelId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.PedidoModelId">Delete</a>
+                <a class="badge badge-info" asp-action="Edit" asp-route-id="@item.PedidoModelId">Editar</a> |
+                <a class="badge badge-info" asp-action="Details" asp-route-id="@item.PedidoModelId">Detalhes</a> |
+                <a class="badge badge-danger" asp-action="Delete" asp-route-id="@item.PedidoModelId">Deletar</a>
             </td>
         </tr>
 }

@@ -5,24 +5,24 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1 class="colorWhite">Clientes</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-outline-primary" asp-action="Create">Cadastrar</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-            <th>
+            <th class="colorWhite">
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
-            <th>
+            <th class="colorWhite">
                 @Html.DisplayNameFor(model => model.Endereco)
             </th>
-            <th>
+            <th class="colorWhite">
                 @Html.DisplayNameFor(model => model.Telefone)
             </th>
-            <th>
+            <th class="colorWhite">
                 @Html.DisplayNameFor(model => model.Cpf)
             </th>
             <th></th>
@@ -31,22 +31,22 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
+            <td class="colorWhite">
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
-            <td>
+            <td class="colorWhite">
                 @Html.DisplayFor(modelItem => item.Endereco)
             </td>
-            <td>
+            <td class="colorWhite">
                 @Html.DisplayFor(modelItem => item.Telefone)
             </td>
-            <td>
+            <td class="colorWhite">
                 @Html.DisplayFor(modelItem => item.Cpf)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ClienteModelId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ClienteModelId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ClienteModelId">Delete</a>
+                <a class="badge badge-info" asp-action="Edit" asp-route-id="@item.ClienteModelId">Editar</a> |
+                <a class="badge badge-info" asp-action="Details" asp-route-id="@item.ClienteModelId">Detalhes</a> |
+                <a class="badge badge-danger" asp-action="Delete" asp-route-id="@item.ClienteModelId">Deletar</a>
             </td>
         </tr>
 }
