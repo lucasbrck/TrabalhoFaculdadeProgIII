@@ -797,3 +797,4 @@ C:\Users\lucas\Desktop\ControleVendasBackup\ControleVendas\obj\Debug\netcoreapp3
 C:\Users\lucas\Desktop\ControleVendasBackup\ControleVendas\obj\Debug\netcoreapp3.1\ControleVendas.dll
 C:\Users\lucas\Desktop\ControleVendasBackup\ControleVendas\obj\Debug\netcoreapp3.1\ControleVendas.pdb
 C:\Users\lucas\Desktop\ControleVendasBackup\ControleVendas\obj\Debug\netcoreapp3.1\ControleVendas.genruntimeconfig.cache
+C:\Users\lucas\Desktop\ControleVendasBackup\ControleVendas\obj\Debug\netcoreapp3.1\ControleVendas.csprojAssemblyReference.cache
